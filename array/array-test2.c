@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
 
-	char s[] = "ABCD";
+	char s[] = "GHIJ";
 	int a = 0, b = 3;
 	char t;
 	while (a < b)
