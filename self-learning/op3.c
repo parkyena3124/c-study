@@ -5,7 +5,12 @@ int main(void) {
 	int a = 10, b = 20;
 	int max;
 	
-	max = a > b ? a : b;
-
+	if (a > b) {
+		max = a;
+	}
+	else {
+		max = b;
+	}
 	return 0;
 }
+//max = a > b ? a : b;
