@@ -1,6 +1,10 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+void arr_prn(int i[5]);
+void sub(int x, int y);
+int add(int a, int b);
+
 int main(void) {
 
 	int a=10, b=20;
